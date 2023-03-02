@@ -17,7 +17,7 @@ async function checkPromise(boolean) {
     try {
         await booleanPromise(boolean)
         console.log('Test passed!')
-    } catch(error) {
+    } catch {
         console.log('Test failed...')
     }
 }
