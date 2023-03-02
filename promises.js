@@ -14,6 +14,7 @@ function promiseLog(boolean) {
 
 export default promiseLog;
 
+/*
 //1
 var x = function() {};
 
@@ -42,3 +43,4 @@ bar();
 var bar = function() {
 
 };
+*/
