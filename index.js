@@ -10,8 +10,7 @@ var logFunctions = [
     mapsLog,
     () => ( promiseLog(true) ),
     () => { promiseLog(false) },
-    () => { asyncLog(true) },
-    () => { asyncLog(false) }
+    asyncLog
 ]
 
 logFunctions.forEach(func => {
